@@ -1,0 +1,144 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	/* по умолчанию */
+	/* font-size: 16px;  */
+}
+body {
+	line-height: 1;
+	color: #fff;
+	background-color: #333;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------ */
+.main {
+	flex-grow: 1;
+}
+
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+@media (max-width: 1050px) {
+}
+/* Условные планшеты */
+@media (max-width: 991.98px) {
+}
+/* Условные мобилки */
+@media (max-width: 767.98px) {
+}
+
+[class*="__container"] {
+	max-width: 1050px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+/* №1 */
+@media (max-width: 1050px) {
+	[class*="__container"] {
+		/* max-width: 970px; */
+	}
+}
+/* №2 */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		/* max-width: 750px; */
+	}
+}
+/* №3 */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		/* max-width: none; */
+	}
+}
+
+.main {
+}
+.home-page {
+	background: url("../img/mainpage/BG\ Image.jpg") center center / cover no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+.home-page__container {
+}
+.header {
+}
+
+/* ------------------------------ */
+
+.dog {
+	background: #29c3be;
+	display: flex;
+}
+.dog__image-dog {
+}
+.image-dog {
+}
+.image-dog__img {
+}
+.dog__info {
+}
+.info {
+}
+.info__container {
+}
+.dog__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #ffffff;
+}
+.dog__button {
+}
+
+/* ------------------------------ */
+.block {
+	font-size: 30px;
+}
+/* ------------------------------ */
+
+/* ------------------------------ */
